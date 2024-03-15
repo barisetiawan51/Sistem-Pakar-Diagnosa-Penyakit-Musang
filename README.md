@@ -1,2 +1,2 @@
-# Sistem-Pakar-Diagnosa-Penyakit-Musang
+# Sistem Pakar Diagnosa Penyakit Musang
 Code menggunakan PHP
