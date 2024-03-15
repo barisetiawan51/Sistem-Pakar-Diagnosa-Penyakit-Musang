@@ -1,0 +1,265 @@
+/*Navigation*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Image/musang\ pandan.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navigasi ul {
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.navigasi ul li {
+    float: left;
+}
+
+.navigasi ul li a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 15px;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    transition: 0.25s;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navigasi ul li a:hover {
+    background-color: #fff;
+    color: black;
+    display: block;
+}
+
+.navigasi ul ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 50px;
+}
+
+.navigasi ul ul li {
+    float: none;
+    display: block;
+}
+
+.navigasi ul li:hover ul {
+    display: block;
+}
+
+.navigasi ul ul li a {
+    float: none;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    transition: 0.25s;
+    border-radius: 5px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navigasi ul ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    float: left;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 30px;
+    opacity: 30%;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+.GetStarted input.submit{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: none;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    transition: 0.25s;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.GetStarted input.submit:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.title p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 150px;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: auto;
+  width: 500px;
+}
+
+.column {
+  flex: 1;
+}
+
+.column label{
+text-align: left;
+}
+.column input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+
+#deteksisection .submit[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#deteksisection .submit[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#deteksisection .reset[type="reset"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#deteksisection .reset[type="reset"]:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.output {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.output p {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.output li {
+    list-style-type: disc;
+    margin-left: 22px;
+}
+
+.output ul {
+    list-style-type: none;
+    margin-left: 44px;
+}
+
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.footer-logo,
+.footer-copyright {
+    margin: 0;
+    line-height: 30px;
+    opacity: 40%;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    /* Sesuaikan ukuran font sesuai kebutuhan */
+}
+
+.footer-logo,
+.footer-copyright {
+    text-align: center;
+}
+/*------------------------------------------------------------------------*/
